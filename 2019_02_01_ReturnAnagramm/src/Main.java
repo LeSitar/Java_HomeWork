@@ -7,15 +7,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		String n1 = "Ivan";
-		String n2 = "Anna";
+		String n1 = "Anna";
+		String n2 = "Ivan";
 		
 		System.out.println(isWordAnagramm(n1, n2));
 		
 		List <String> words = new ArrayList<>();
 		Collections.addAll(words, "Ivan", "Oleg", "Anna", "Nana", "Navi", 
 				"Inav","Max","Robert");
-		System.out.println(returnAnagramms(words, "Anna"));
+		System.out.println(returnAnagramms(words, "Inav"));
 
 	}
 	

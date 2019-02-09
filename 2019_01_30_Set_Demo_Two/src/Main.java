@@ -6,16 +6,19 @@ import java.util.Set;
 
 public class Main {
 
+	
+	
 	public static void main(String[] args) {
 		
-		List<String> duplicates = Arrays.asList("Ivan", "Piotr", "Ivan", "Piotr", "Anna");
+		List<String> duplicates = Arrays.asList("Ivan", "Piotr", "Ivan", "Piotr", 
+				"Anna", "Masha", "Alexei", "Masha");
 		
 		System.out.println(duplicates);
 		System.out.println(getDuplicates(duplicates));
 		
-		
-
-	}
+		 }
+	
+	
 	
 	public static List<String> getDuplicates(List<String> list){
 		
